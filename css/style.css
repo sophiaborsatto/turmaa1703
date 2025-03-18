@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;   
+}
+body{
+    background-color: #ffbcfc;
+    height: 100vh;
+}
+
+ 
+.logo img{
+    height: auto;
+    width: 150px;
+}
+
+.round {
+    width: 270px;  
+    height: 270px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 5px solid #c698fa;
+    margin-top: -40px; 
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #c698fa;
+    border: 0;
+    border-radius: 30px; 
+    cursor: pointer; 
+    transition: .2s;  
+}
+
+button:hover{
+    box-shadow: 0px 0px 8px #c698fa;
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+ 
+header{
+    padding: 40px 4%;
+}
+
+header >.interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+header a{
+    color: #8d4080;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);  
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+
+section .topo-do-site{
+    padding: 40px 4%;
+
+}
+
+section .topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;  
+}
+
+.topo-do-site h1{
+    color: #1b0130;
+    font-size: 38px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site p{
+    color: #1b0130;
+    margin: 40px 0%;
+    font-size: 22px;
+}
+
+.img-topo-site{
+    padding: 20px 2%;
+    
+}
+
+section .sobre{
+    padding: 40px 4%;
+}
+
+section .sobre .flex{
+    align-items: center;
+    gap: 60px;
+    padding: 40px 4%;
+    margin: 40px;
+}
+
+.sobre .txt-sobre{
+    color: #1b0130;
+    margin: 40px 4%;
+    font-size: 22px;
+    padding: 20px 4%;
+}
+
+.sobre .txt-sobre h2{
+    margin-bottom: 30px;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.sobre .txt-sobre h2 span{
+    color: #c698fa;
+    display: block;
+    font-family: 'Poppins', sans-serif;  
+}
+
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+
+}
+
+.sobre .txt-sobre .redes button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    background-color: #c698fa;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+}
+
+
+@keyframes correr {
+    0% { transform: translateX(-200px); }
+    100% { transform: translateX(200px); }
+}
